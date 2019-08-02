@@ -5,3 +5,4 @@
 *Con "git add ." agrego todos los archivos a la zona conocida como stage, que es una zona donde están los archivos listos para ser confirmados.
 *Con "git commit" agrego y confirmo los archivos. Agregando -m puedo poner un mensaje entre comillas.
 *Con "git diff" puedo ver cuales han sido las modificaciones en los archivos respecto al último commit.
+*Con "git log" puedo ver la lista de cambions realizados, ordenados del más reciente al más antiguo.
