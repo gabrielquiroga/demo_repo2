@@ -1,1 +1,7 @@
- 
+*Este es un repositorio para aprender a usar git y github.
+*Para indicar que esta carpeta es un repositorio que tiene que ser gestionado por git, basta con escribir "git init" en una terminal en la carpeta.
+*Si quiero que deje de estar gestionado por git, basta con eliminar la carpeta oculta llamada ".git".
+*Con "git status" puedo ver cuales son los archivos a los que git está haciendo un control de cambios.
+*Con "git add ." agrego todos los archivos a la zona conocida como stage, que es una zona donde están los archivos listos para ser confirmados.
+*Con "git commit" agrego y confirmo los archivos. Agregando -m puedo poner un mensaje entre comillas.
+*Con "git diff" puedo ver cuales han sido las modificaciones en los archivos respecto al último commit.
