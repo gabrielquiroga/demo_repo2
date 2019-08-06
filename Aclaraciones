@@ -2,7 +2,11 @@
 *Para indicar que esta carpeta es un repositorio que tiene que ser gestionado por git, basta con escribir "git init" en una terminal en la carpeta.
 *Si quiero que deje de estar gestionado por git, basta con eliminar la carpeta oculta llamada ".git".
 *Con "git status" puedo ver cuales son los archivos a los que git está haciendo un control de cambios.
-*Con "git add ." agrego todos los archivos a la zona conocida como stage, que es una zona donde están los archivos listos para ser confirmados.
+*Con "git add .", "git add -A" ó "git add --all" agrego todos los archivos a la zona conocida como stage, que es una zona donde están los archivos listos para ser confirmados. En vez del punto puedo poner el nombre del archivo que quiero agregar, para agregar solo ese archivo.
 *Con "git commit" agrego y confirmo los archivos. Agregando -m puedo poner un mensaje entre comillas.
 *Con "git diff" puedo ver cuales han sido las modificaciones en los archivos respecto al último commit.
 *Con "git log" puedo ver la lista de cambions realizados, ordenados del más reciente al más antiguo.
+*Con "git reset <nombre directorio>" puedo quitar el directorio especificado del stage.
+*Evidentemente con "git help" puedo ver mas información sobre los comandos.
+*Con "git config --global alias.<abreviación> "<comando a abreviar>"" puedo agregar un comando mas corto o con un nombre más amigable, que haga lo mismo que el comando escrito entre comillas, es decir, le doy un apodo o alias a un comando.
+*Con "git commit --amend" se puede cambiar el mensaje del último commit.
