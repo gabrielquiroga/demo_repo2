@@ -11,6 +11,8 @@
 *Con "git config --global alias.<abreviación> "<comando a abreviar>"" puedo agregar un comando mas corto o con un nombre más amigable, que haga lo mismo que el comando escrito entre comillas, es decir, le doy un apodo o alias a un comando.
 *Con "git commit --amend" se puede cambiar el mensaje del último commit.
 *Con "git mv <Nombre archivo> <Nuevo nombre>" puedo renombrar un archivo de la carpeta.
-*Con git rm <Nombre archivo>" se puede borrar el archivo mencionado. 
-*Con "git reset --soft <Código del commit>" se vuelve al commit del código indicado, pero no recupera los cambios hechos. 
+*Con "git rm <Nombre archivo>" se puede borrar el archivo mencionado. 
+*Con "git reset --soft <Código del commit>" se vuelve al commit del código indicado, pero no deshace los cambios hechos. 
 *Con "git reset --hard >Código del commit>" se vuelve al commit del código indicado y se deshacen los cambios posteriores a ese commit.
+*Con "git reset --mixed >Código del commit>" se vuelve al commit del código indicado pero no se deshacen los cambios en los archivos, es decir los archivos no se modifican pero sus cambios posteriores al commit indicado se mantienen fuera del stage.
+*Con "git reflog" puedo ver todos los commits, incluso los eliminados y los modificados.
