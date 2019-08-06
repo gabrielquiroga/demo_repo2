@@ -10,3 +10,4 @@
 *Evidentemente con "git help" puedo ver mas información sobre los comandos.
 *Con "git config --global alias.<abreviación> "<comando a abreviar>"" puedo agregar un comando mas corto o con un nombre más amigable, que haga lo mismo que el comando escrito entre comillas, es decir, le doy un apodo o alias a un comando.
 *Con "git commit --amend" se puede cambiar el mensaje del último commit.
+*Con "git mv <Nombre archivo> <Nuevo nombre>" puedo renombrar un archivo de la carpeta.
